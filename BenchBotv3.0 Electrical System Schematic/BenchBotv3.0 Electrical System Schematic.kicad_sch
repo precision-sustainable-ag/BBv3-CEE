@@ -3951,126 +3951,6 @@
 				)
 			)
 		)
-		(symbol "power:+BATT"
-			(power)
-			(pin_numbers hide)
-			(pin_names
-				(offset 0) hide)
-			(exclude_from_sim no)
-			(in_bom yes)
-			(on_board yes)
-			(property "Reference" "#PWR"
-				(at 0 -3.81 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "Value" "+BATT"
-				(at 0 3.556 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "Footprint" ""
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "Datasheet" ""
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "Description" "Power symbol creates a global label with name \"+BATT\""
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "ki_keywords" "global power battery"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(symbol "+BATT_0_1"
-				(polyline
-					(pts
-						(xy -0.762 1.27) (xy 0 2.54)
-					)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy 0 0) (xy 0 2.54)
-					)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy 0 2.54) (xy 0.762 1.27)
-					)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-			)
-			(symbol "+BATT_1_1"
-				(pin power_in line
-					(at 0 0 90)
-					(length 0)
-					(name "~"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "1"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-			)
-		)
 		(symbol "power:Earth_Protective"
 			(power)
 			(pin_numbers hide)
@@ -4412,10 +4292,6 @@
 		(uuid "215f121b-91e5-431c-8849-b5c2fe4fa938")
 	)
 	(no_connect
-		(at 440.69 466.09)
-		(uuid "295fc987-5253-4741-8a6c-b2c1b821e9a6")
-	)
-	(no_connect
 		(at 194.31 74.93)
 		(uuid "36ec2acc-e71f-46cc-88ce-492e3eea1073")
 	)
@@ -4498,10 +4374,6 @@
 	(no_connect
 		(at 154.94 115.57)
 		(uuid "ec9d729e-8d4f-42d6-bee9-1b94c6f4bd55")
-	)
-	(no_connect
-		(at 433.07 466.09)
-		(uuid "ee760019-6e19-4fdf-82e2-63c326a2cd99")
 	)
 	(no_connect
 		(at 127 115.57)
@@ -4806,6 +4678,17 @@
 	)
 	(wire
 		(pts
+			(xy 344.17 284.48) (xy 344.17 236.22)
+		)
+		(stroke
+			(width 0)
+			(type default)
+			(color 255 0 0 1)
+		)
+		(uuid "2807a1ba-26b4-45f4-82a6-df3881793760")
+	)
+	(wire
+		(pts
 			(xy 80.01 298.45) (xy 80.01 320.04)
 		)
 		(stroke
@@ -4813,17 +4696,6 @@
 			(type default)
 		)
 		(uuid "296b554e-2169-48b7-9686-da5525ff2792")
-	)
-	(wire
-		(pts
-			(xy 463.55 461.01) (xy 463.55 491.49)
-		)
-		(stroke
-			(width 0.254)
-			(type default)
-			(color 0 0 0 1)
-		)
-		(uuid "2b582900-dee1-4372-ae0e-c330409d6da0")
 	)
 	(wire
 		(pts
@@ -4909,6 +4781,17 @@
 	)
 	(wire
 		(pts
+			(xy 433.07 445.77) (xy 455.93 445.77)
+		)
+		(stroke
+			(width 0.254)
+			(type solid)
+			(color 128 77 0 1)
+		)
+		(uuid "3d349c43-fe65-40db-b85d-d72fc671a094")
+	)
+	(wire
+		(pts
 			(xy 582.93 271.78) (xy 582.93 284.48)
 		)
 		(stroke
@@ -4927,16 +4810,6 @@
 			(type default)
 		)
 		(uuid "3e6790ca-e1ce-41cb-945c-8a8dd49d7018")
-	)
-	(wire
-		(pts
-			(xy 327.66 469.9) (xy 327.66 472.44)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "3ed716f9-4179-4aa5-8f91-4ee00faad251")
 	)
 	(wire
 		(pts
@@ -5056,6 +4929,17 @@
 	)
 	(wire
 		(pts
+			(xy 344.17 236.22) (xy 463.55 236.22)
+		)
+		(stroke
+			(width 0)
+			(type default)
+			(color 255 0 0 1)
+		)
+		(uuid "4fc967e6-8eaf-487e-a046-da081792faf0")
+	)
+	(wire
+		(pts
 			(xy 570.23 110.49) (xy 580.39 110.49)
 		)
 		(stroke
@@ -5130,12 +5014,12 @@
 	)
 	(wire
 		(pts
-			(xy 433.07 466.09) (xy 433.07 491.49)
+			(xy 433.07 445.77) (xy 433.07 491.49)
 		)
 		(stroke
 			(width 0.254)
 			(type solid)
-			(color 72 72 0 1)
+			(color 128 77 0 1)
 		)
 		(uuid "552d5deb-8daf-40ca-821a-e6329ec524f2")
 	)
@@ -5189,16 +5073,6 @@
 			(type dash)
 		)
 		(uuid "61068f2a-1130-410c-9712-41dce0b4bc15")
-	)
-	(wire
-		(pts
-			(xy 327.66 472.44) (xy 325.12 472.44)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "622a4fa0-0914-447f-a6f9-7448f0724914")
 	)
 	(wire
 		(pts
@@ -5285,17 +5159,6 @@
 	)
 	(wire
 		(pts
-			(xy 440.69 466.09) (xy 440.69 491.49)
-		)
-		(stroke
-			(width 0.254)
-			(type default)
-			(color 0 0 0 1)
-		)
-		(uuid "6ee50d2e-15d9-429d-b347-a7d6aeb3ea00")
-	)
-	(wire
-		(pts
 			(xy 414.02 439.42) (xy 414.02 492.76)
 		)
 		(stroke
@@ -5343,7 +5206,7 @@
 		(stroke
 			(width 0.254)
 			(type solid)
-			(color 72 72 0 1)
+			(color 128 77 0 1)
 		)
 		(uuid "75e093fb-fa04-4102-be77-7ac84e69dc61")
 	)
@@ -5420,6 +5283,16 @@
 	)
 	(wire
 		(pts
+			(xy 325.12 378.46) (xy 344.17 378.46)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "82784639-5094-4f23-8347-9a22b009d8a6")
+	)
+	(wire
+		(pts
 			(xy 570.23 71.12) (xy 584.2 71.12)
 		)
 		(stroke
@@ -5427,6 +5300,27 @@
 			(type default)
 		)
 		(uuid "8286e8e3-f3de-4fec-8b4d-2e88d5dc4792")
+	)
+	(wire
+		(pts
+			(xy 440.69 452.12) (xy 440.69 491.49)
+		)
+		(stroke
+			(width 0.254)
+			(type default)
+			(color 0 0 0 1)
+		)
+		(uuid "82d33348-8c83-499f-ab0a-37e9a2352525")
+	)
+	(wire
+		(pts
+			(xy 344.17 378.46) (xy 344.17 309.88)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "82e163d7-458b-4457-a212-415ac7f2b4b5")
 	)
 	(wire
 		(pts
@@ -5450,7 +5344,7 @@
 	)
 	(wire
 		(pts
-			(xy 325.12 472.44) (xy 325.12 487.68)
+			(xy 325.12 378.46) (xy 325.12 487.68)
 		)
 		(stroke
 			(width 0)
@@ -5499,6 +5393,17 @@
 			(type default)
 		)
 		(uuid "8be75fe2-4cfa-4919-b6e8-165db5ba79a5")
+	)
+	(wire
+		(pts
+			(xy 463.55 452.12) (xy 463.55 491.49)
+		)
+		(stroke
+			(width 0.254)
+			(type default)
+			(color 0 0 0 1)
+		)
+		(uuid "8d8fd352-e617-4e5d-8ab3-515866bc0bce")
 	)
 	(polyline
 		(pts
@@ -5611,6 +5516,17 @@
 			(type default)
 		)
 		(uuid "991dc097-066c-4bb1-b43b-a4ac43ba5b93")
+	)
+	(wire
+		(pts
+			(xy 417.83 247.65) (xy 438.15 247.65)
+		)
+		(stroke
+			(width 0.254)
+			(type default)
+			(color 0 0 255 1)
+		)
+		(uuid "99bdd49f-32d6-421a-a286-2fff6874de19")
 	)
 	(wire
 		(pts
@@ -6012,6 +5928,17 @@
 		)
 		(uuid "c425d29d-1611-4d6c-9634-123cf5093bc4")
 	)
+	(wire
+		(pts
+			(xy 417.83 284.48) (xy 417.83 247.65)
+		)
+		(stroke
+			(width 0.254)
+			(type default)
+			(color 0 0 255 1)
+		)
+		(uuid "ccdc67e4-e067-4198-8c10-d091e0d2cdef")
+	)
 	(polyline
 		(pts
 			(xy 76.2 177.8) (xy 152.4 177.8)
@@ -6031,6 +5958,17 @@
 			(type default)
 		)
 		(uuid "cdc5c068-1660-4551-974b-a44602c577ab")
+	)
+	(wire
+		(pts
+			(xy 438.15 247.65) (xy 438.15 284.48)
+		)
+		(stroke
+			(width 0.254)
+			(type default)
+			(color 0 0 255 1)
+		)
+		(uuid "cdcb1270-a9d2-4a58-ac46-b36119a4846b")
 	)
 	(wire
 		(pts
@@ -6210,14 +6148,25 @@
 	)
 	(wire
 		(pts
-			(xy 455.93 461.01) (xy 455.93 491.49)
+			(xy 455.93 445.77) (xy 455.93 491.49)
 		)
 		(stroke
 			(width 0.254)
 			(type solid)
-			(color 72 72 0 1)
+			(color 128 77 0 1)
 		)
 		(uuid "db7d3037-2a90-490f-aac3-d874b28c3d29")
+	)
+	(wire
+		(pts
+			(xy 463.55 236.22) (xy 463.55 284.48)
+		)
+		(stroke
+			(width 0)
+			(type default)
+			(color 255 0 0 1)
+		)
+		(uuid "dc5bf61f-4714-4060-bac5-feb4c33ee281")
 	)
 	(wire
 		(pts
@@ -6401,6 +6350,17 @@
 			(type default)
 		)
 		(uuid "f223334a-7d40-4dba-b53b-b8730e6f9f2b")
+	)
+	(wire
+		(pts
+			(xy 440.69 452.12) (xy 463.55 452.12)
+		)
+		(stroke
+			(width 0.254)
+			(type default)
+			(color 0 0 0 1)
+		)
+		(uuid "f2e34b9d-984e-4921-a321-146e0f58959d")
 	)
 	(wire
 		(pts
@@ -6811,6 +6771,17 @@
 		)
 		(uuid "03decb47-6ba1-488d-8b4f-f572f2a315c4")
 	)
+	(label "24V+"
+		(at 344.17 271.78 90)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "0d4b7c26-3371-4f99-8bd8-e05f6664a3d8")
+	)
 	(label "Enable Sink (48V-) IN"
 		(at 435.61 466.09 270)
 		(fields_autoplaced yes)
@@ -7152,6 +7123,17 @@
 		)
 		(uuid "8d55b0db-a2ba-4762-9d78-d8f6c462456d")
 	)
+	(label "Aux 24V+ Out"
+		(at 325.12 481.33 90)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "8e471ea2-182d-44bf-acf8-419be3233d17")
+	)
 	(label "48V Batt+"
 		(at 523.24 370.84 90)
 		(fields_autoplaced yes)
@@ -7207,6 +7189,17 @@
 		)
 		(uuid "9ffa9c9c-79a7-47c2-a1e9-f3f6db97553a")
 	)
+	(label "Aux 24V+ Out"
+		(at 344.17 340.36 90)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "a0916326-f248-4825-95ed-2ff779759f0f")
+	)
 	(label "Enable Sink (48V-) IN"
 		(at 422.91 255.27 270)
 		(fields_autoplaced yes)
@@ -7239,6 +7232,17 @@
 			(justify left bottom)
 		)
 		(uuid "ab2d8a7e-4bf1-478e-976a-6887a83fd9df")
+	)
+	(label "24V+"
+		(at 463.55 271.78 90)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "ad4028da-8024-4266-b999-950d3d43f9a3")
 	)
 	(label "GND"
 		(at 133.35 60.96 0)
@@ -8104,7 +8108,6 @@
 		)
 	)
 	(symbol
-		(lib_name "PSA:Passthrough_Terminal_Block")
 		(lib_id "PSA:Passthrough_Terminal_Block")
 		(at 504.19 297.18 0)
 		(unit 2)
@@ -8196,7 +8199,6 @@
 		)
 	)
 	(symbol
-		(lib_name "PSA:Passthrough_Terminal_Block")
 		(lib_id "PSA:Passthrough_Terminal_Block")
 		(at 582.93 297.18 0)
 		(unit 3)
@@ -8287,72 +8289,6 @@
 		)
 	)
 	(symbol
-		(lib_id "power:+BATT")
-		(at 327.66 469.9 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "095270bd-b67f-4008-a96f-45de2cae9d44")
-		(property "Reference" "#PWR010"
-			(at 327.66 473.71 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Value" "+BATT"
-			(at 327.66 464.82 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" ""
-			(at 327.66 469.9 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" ""
-			(at 327.66 469.9 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Power symbol creates a global label with name \"+BATT\""
-			(at 327.66 469.9 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "66c7d0d8-6878-4236-83a5-c9d242e9906f")
-		)
-		(instances
-			(project "BenchBotv3.0 Electrical System Schematic"
-				(path "/9144183a-0663-45cb-90e7-5207440af5df"
-					(reference "#PWR010")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
 		(lib_id "power:GND")
 		(at 581.66 124.46 0)
 		(unit 1)
@@ -8419,7 +8355,6 @@
 		)
 	)
 	(symbol
-		(lib_name "PSA:Fused_Terminal_Block")
 		(lib_id "PSA:Fused_Terminal_Block")
 		(at 339.09 297.18 0)
 		(unit 1)
@@ -8561,7 +8496,6 @@
 		)
 	)
 	(symbol
-		(lib_name "PSA:Passthrough_Terminal_Block")
 		(lib_id "PSA:Passthrough_Terminal_Block")
 		(at 547.37 297.18 0)
 		(unit 3)
@@ -8869,7 +8803,6 @@
 		)
 	)
 	(symbol
-		(lib_name "PSA:Passthrough_Terminal_Block")
 		(lib_id "PSA:Passthrough_Terminal_Block")
 		(at 468.63 297.18 0)
 		(unit 2)
@@ -8961,7 +8894,6 @@
 		)
 	)
 	(symbol
-		(lib_name "PSA:Passthrough_Terminal_Block")
 		(lib_id "PSA:Passthrough_Terminal_Block")
 		(at 499.11 297.18 0)
 		(unit 2)
@@ -9197,7 +9129,6 @@
 		)
 	)
 	(symbol
-		(lib_name "PSA:Passthrough_Terminal_Block")
 		(lib_id "PSA:Passthrough_Terminal_Block")
 		(at 509.27 297.18 0)
 		(unit 2)
@@ -9288,7 +9219,6 @@
 		)
 	)
 	(symbol
-		(lib_name "PSA:Passthrough_Terminal_Block")
 		(lib_id "PSA:Passthrough_Terminal_Block")
 		(at 478.79 297.18 0)
 		(unit 2)
@@ -9380,7 +9310,6 @@
 		)
 	)
 	(symbol
-		(lib_name "PSA:Grounding_Terminal_Block")
 		(lib_id "PSA:Grounding_Terminal_Block")
 		(at 600.71 297.18 0)
 		(unit 1)
@@ -9451,7 +9380,6 @@
 		)
 	)
 	(symbol
-		(lib_name "PSA:Passthrough_Terminal_Block")
 		(lib_id "PSA:Passthrough_Terminal_Block")
 		(at 417.83 297.18 0)
 		(unit 1)
@@ -9543,7 +9471,6 @@
 		)
 	)
 	(symbol
-		(lib_name "PSA:Passthrough_Terminal_Block")
 		(lib_id "PSA:Passthrough_Terminal_Block")
 		(at 542.29 297.18 0)
 		(unit 3)
@@ -9772,7 +9699,6 @@
 		)
 	)
 	(symbol
-		(lib_name "PSA:Passthrough_Terminal_Block")
 		(lib_id "PSA:Passthrough_Terminal_Block")
 		(at 433.07 297.18 0)
 		(unit 1)
@@ -9864,7 +9790,6 @@
 		)
 	)
 	(symbol
-		(lib_name "PSA:Fused_Terminal_Block")
 		(lib_id "PSA:Fused_Terminal_Block")
 		(at 354.33 297.18 0)
 		(unit 1)
@@ -10013,7 +9938,6 @@
 		)
 	)
 	(symbol
-		(lib_name "PSA:Fused_Terminal_Block")
 		(lib_id "PSA:Fused_Terminal_Block")
 		(at 344.17 297.18 0)
 		(unit 1)
@@ -10084,7 +10008,6 @@
 		)
 	)
 	(symbol
-		(lib_name "PSA:Passthrough_Terminal_Block")
 		(lib_id "PSA:Passthrough_Terminal_Block")
 		(at 572.77 297.18 0)
 		(unit 3)
@@ -10247,7 +10170,6 @@
 		)
 	)
 	(symbol
-		(lib_name "PSA:Passthrough_Terminal_Block")
 		(lib_id "PSA:Passthrough_Terminal_Block")
 		(at 422.91 297.18 0)
 		(unit 1)
@@ -10339,7 +10261,6 @@
 		)
 	)
 	(symbol
-		(lib_name "PSA:Grounding_Terminal_Block")
 		(lib_id "PSA:Grounding_Terminal_Block")
 		(at 314.96 297.18 0)
 		(unit 1)
@@ -10410,7 +10331,6 @@
 		)
 	)
 	(symbol
-		(lib_name "PSA:Passthrough_Terminal_Block")
 		(lib_id "PSA:Passthrough_Terminal_Block")
 		(at 494.03 297.18 0)
 		(unit 2)
@@ -10576,7 +10496,6 @@
 		)
 	)
 	(symbol
-		(lib_name "PSA:Passthrough_Terminal_Block")
 		(lib_id "PSA:Passthrough_Terminal_Block")
 		(at 577.85 297.18 0)
 		(unit 3)
@@ -10668,7 +10587,6 @@
 		)
 	)
 	(symbol
-		(lib_name "PSA:Passthrough_Terminal_Block")
 		(lib_id "PSA:Passthrough_Terminal_Block")
 		(at 402.59 297.18 0)
 		(unit 1)
@@ -10831,7 +10749,6 @@
 		)
 	)
 	(symbol
-		(lib_name "PSA:Flex_Converter")
 		(lib_id "PSA:Flex_Converter")
 		(at 158.75 95.25 0)
 		(unit 1)
@@ -10920,7 +10837,6 @@
 		)
 	)
 	(symbol
-		(lib_name "PSA:Passthrough_Terminal_Block")
 		(lib_id "PSA:Passthrough_Terminal_Block")
 		(at 557.53 297.18 0)
 		(unit 3)
@@ -11079,7 +10995,6 @@
 		)
 	)
 	(symbol
-		(lib_name "PSA:Flex_Converter")
 		(lib_id "PSA:Flex_Converter")
 		(at 119.38 95.25 0)
 		(unit 1)
@@ -11533,7 +11448,6 @@
 		)
 	)
 	(symbol
-		(lib_name "PSA:Fused_Terminal_Block")
 		(lib_id "PSA:Fused_Terminal_Block")
 		(at 364.49 297.18 0)
 		(unit 1)
@@ -11735,7 +11649,6 @@
 		)
 	)
 	(symbol
-		(lib_name "PSA:Passthrough_Terminal_Block")
 		(lib_id "PSA:Passthrough_Terminal_Block")
 		(at 427.99 297.18 0)
 		(unit 1)
@@ -12051,7 +11964,6 @@
 		)
 	)
 	(symbol
-		(lib_name "PSA:Passthrough_Terminal_Block")
 		(lib_id "PSA:Passthrough_Terminal_Block")
 		(at 483.87 297.18 0)
 		(unit 2)
@@ -12355,7 +12267,6 @@
 		)
 	)
 	(symbol
-		(lib_name "PSA:Passthrough_Terminal_Block")
 		(lib_id "PSA:Passthrough_Terminal_Block")
 		(at 412.75 297.18 0)
 		(unit 1)
@@ -12586,7 +12497,6 @@
 		)
 	)
 	(symbol
-		(lib_name "PSA:Passthrough_Terminal_Block")
 		(lib_id "PSA:Passthrough_Terminal_Block")
 		(at 407.67 297.18 0)
 		(unit 1)
@@ -12678,7 +12588,6 @@
 		)
 	)
 	(symbol
-		(lib_name "PSA:Fused_Terminal_Block")
 		(lib_id "PSA:Fused_Terminal_Block")
 		(at 349.25 297.18 0)
 		(unit 1)
@@ -12749,7 +12658,6 @@
 		)
 	)
 	(symbol
-		(lib_name "PSA:Passthrough_Terminal_Block")
 		(lib_id "PSA:Passthrough_Terminal_Block")
 		(at 473.71 297.18 0)
 		(unit 2)
@@ -12909,7 +12817,6 @@
 		)
 	)
 	(symbol
-		(lib_name "PSA:Passthrough_Terminal_Block")
 		(lib_id "PSA:Passthrough_Terminal_Block")
 		(at 488.95 297.18 0)
 		(unit 2)
@@ -13001,7 +12908,6 @@
 		)
 	)
 	(symbol
-		(lib_name "PSA:Passthrough_Terminal_Block")
 		(lib_id "PSA:Passthrough_Terminal_Block")
 		(at 552.45 297.18 0)
 		(unit 3)
@@ -13255,7 +13161,6 @@
 		)
 	)
 	(symbol
-		(lib_name "PSA:Passthrough_Terminal_Block")
 		(lib_id "PSA:Passthrough_Terminal_Block")
 		(at 397.51 297.18 0)
 		(unit 1)
@@ -13646,7 +13551,6 @@
 		)
 	)
 	(symbol
-		(lib_name "PSA:Passthrough_Terminal_Block")
 		(lib_id "PSA:Passthrough_Terminal_Block")
 		(at 438.15 297.18 0)
 		(unit 1)
@@ -14086,7 +13990,6 @@
 		)
 	)
 	(symbol
-		(lib_name "PSA:Passthrough_Terminal_Block")
 		(lib_id "PSA:Passthrough_Terminal_Block")
 		(at 567.69 297.18 0)
 		(unit 3)
@@ -14249,7 +14152,6 @@
 		)
 	)
 	(symbol
-		(lib_name "PSA:Passthrough_Terminal_Block")
 		(lib_id "PSA:Passthrough_Terminal_Block")
 		(at 562.61 297.18 0)
 		(unit 3)
@@ -14341,7 +14243,6 @@
 		)
 	)
 	(symbol
-		(lib_name "PSA:Fused_Terminal_Block")
 		(lib_id "PSA:Fused_Terminal_Block")
 		(at 359.41 297.18 0)
 		(unit 1)
@@ -14485,7 +14386,6 @@
 		)
 	)
 	(symbol
-		(lib_name "PSA:Flex_Converter")
 		(lib_id "PSA:Flex_Converter")
 		(at 198.12 95.25 0)
 		(unit 1)
